@@ -637,144 +637,54 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="74980111212" urn="urn:adsk.eagle:footprint:30734206/2" library_version="36">
-<description>&lt;b&gt;WE-RJ45 LAN Through Hole Reflow 
-&lt;br&gt;&lt;/b&gt;</description>
+<package name="7499010211A" urn="urn:adsk.eagle:footprint:12863451/2" library_version="36">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer
+&lt;br&gt;&lt;/b&gt;10/100 Base-T</description>
+<pad name="9" x="-6.325" y="-4.9" drill="1.03" rot="R180"/>
+<pad name="10" x="-3.785" y="-3.38" drill="1.03" rot="R180"/>
+<pad name="11" x="3.785" y="-4.9" drill="1.03" rot="R180"/>
+<pad name="12" x="6.325" y="-3.38" drill="1.03" rot="R180"/>
+<pad name="8" x="4.445" y="8.89" drill="0.9" rot="R180"/>
+<pad name="6" x="1.905" y="8.89" drill="0.9" rot="R180"/>
+<pad name="4" x="-0.635" y="8.89" drill="0.9" rot="R180"/>
+<pad name="2" x="-3.175" y="8.89" drill="0.9" rot="R180"/>
+<pad name="1" x="-4.445" y="6.35" drill="0.9" rot="R180"/>
+<pad name="3" x="-1.905" y="6.35" drill="0.9" rot="R180"/>
+<pad name="5" x="0.635" y="6.35" drill="0.9" rot="R180"/>
+<pad name="7" x="3.175" y="6.35" drill="0.9" rot="R180"/>
+<pad name="S2" x="7.745" y="3.05" drill="1.6" rot="R180"/>
+<pad name="S1" x="-7.745" y="3.05" drill="1.6" rot="R180"/>
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
-<pad name="S1" x="-7.85" y="3.05" drill="1.6"/>
-<pad name="S2" x="7.85" y="3.05" drill="1.6"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9"/>
-<pad name="9" x="-6.64" y="-4.06" drill="1.02"/>
-<pad name="10" x="-4.1" y="-4.06" drill="1.02"/>
-<pad name="11" x="4.1" y="-4.06" drill="1.02"/>
-<pad name="12" x="6.64" y="-4.06" drill="1.02"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9"/>
-<wire x1="-7.95" y1="10.5" x2="7.95" y2="10.5" width="0.1" layer="51"/>
-<wire x1="7.95" y1="10.5" x2="7.95" y2="-10.75" width="0.1" layer="51"/>
-<wire x1="7.95" y1="-10.75" x2="-7.95" y2="-10.75" width="0.1" layer="51"/>
-<wire x1="-7.95" y1="-10.75" x2="-7.95" y2="10.5" width="0.1" layer="51"/>
-<wire x1="-8.05" y1="4.6" x2="-8.05" y2="10.6" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="10.6" x2="8.05" y2="10.6" width="0.2" layer="21"/>
-<wire x1="8.05" y1="10.6" x2="8.05" y2="4.6" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="1.5" x2="-8.05" y2="-10.85" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="-10.85" x2="8.05" y2="-10.85" width="0.2" layer="21"/>
-<wire x1="8.05" y1="-10.85" x2="8.05" y2="1.5" width="0.2" layer="21"/>
+<text x="0" y="11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-6.1" y="5.4" radius="0.2" width="0.4" layer="21"/>
+<wire x1="-8" y1="10.36" x2="-8" y2="-10.89" width="0.1" layer="51"/>
+<wire x1="-8.1" y1="-10.99" x2="8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="8" y1="-10.89" x2="8" y2="10.36" width="0.1" layer="51"/>
+<wire x1="8.1" y1="10.46" x2="-8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="1.4" x2="-8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="8.1" y1="1.4" x2="8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="4.6" x2="-8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="8.1" y1="4.6" x2="8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="-8" y1="10.36" x2="8" y2="10.36" width="0.1" layer="51"/>
+<wire x1="-8" y1="-10.89" x2="8" y2="-10.89" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-9.4" y="10.9"/>
-<vertex x="9.4" y="10.9"/>
-<vertex x="9.4" y="-11.15"/>
-<vertex x="-9.4" y="-11.15"/>
+<vertex x="-9.25" y="10.66"/>
+<vertex x="9.25" y="10.66"/>
+<vertex x="9.25" y="-11.19"/>
+<vertex x="-9.25" y="-11.19"/>
 </polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-3.445" y="4.95"/>
-<vertex x="-3.445" y="7.55"/>
-<vertex x="-5.445" y="7.55"/>
-<vertex x="-5.445" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-2.175" y="7.89"/>
-<vertex x="-2.175" y="10.49"/>
-<vertex x="-4.175" y="10.49"/>
-<vertex x="-4.175" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-0.905" y="4.95"/>
-<vertex x="-0.905" y="7.55"/>
-<vertex x="-2.905" y="7.55"/>
-<vertex x="-2.905" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="0.365" y="7.89"/>
-<vertex x="0.365" y="10.49"/>
-<vertex x="-1.635" y="10.49"/>
-<vertex x="-1.635" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="1.635" y="4.95"/>
-<vertex x="1.635" y="7.55"/>
-<vertex x="-0.365" y="7.55"/>
-<vertex x="-0.365" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="2.905" y="7.89"/>
-<vertex x="2.905" y="10.49"/>
-<vertex x="0.905" y="10.49"/>
-<vertex x="0.905" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="4.175" y="4.95"/>
-<vertex x="4.175" y="7.55"/>
-<vertex x="2.175" y="7.55"/>
-<vertex x="2.175" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="5.445" y="7.89"/>
-<vertex x="5.445" y="10.49"/>
-<vertex x="3.445" y="10.49"/>
-<vertex x="3.445" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-4.895" y="1.8"/>
-<vertex x="-4.895" y="4.6"/>
-<vertex x="-10.595" y="4.6"/>
-<vertex x="-10.595" y="1.8"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="4.895" y="4.6"/>
-<vertex x="4.895" y="1.8"/>
-<vertex x="10.595" y="1.8"/>
-<vertex x="10.595" y="4.6"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-5.625" y="-5.66"/>
-<vertex x="-5.625" y="-2.46"/>
-<vertex x="-7.625" y="-2.46"/>
-<vertex x="-7.625" y="-5.66"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-3.085" y="-5.66"/>
-<vertex x="-3.085" y="-2.46"/>
-<vertex x="-5.085" y="-2.46"/>
-<vertex x="-5.085" y="-5.66"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="3.095" y="-2.46"/>
-<vertex x="3.095" y="-5.66"/>
-<vertex x="5.095" y="-5.66"/>
-<vertex x="5.095" y="-2.46"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="5.635" y="-2.46"/>
-<vertex x="5.635" y="-5.66"/>
-<vertex x="7.635" y="-5.66"/>
-<vertex x="7.635" y="-2.46"/>
-</polygon>
-<text x="0" y="11.5" size="1.27" layer="51" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-13" size="1.27" layer="51" align="bottom-center">&gt;VALUE</text>
-<text x="-4.96" y="8.5" size="0.8128" layer="21">2</text>
-<text x="5.9" y="8.6" size="0.8128" layer="21">8</text>
-<text x="4.5" y="6" size="0.8128" layer="21">7</text>
-<text x="-6.3" y="6" size="0.8128" layer="21">1</text>
-<text x="-7" y="-6.7" size="0.8128" layer="21">9</text>
-<text x="-4.75" y="-6.7" size="0.8128" layer="21">10</text>
-<text x="3.45" y="-6.7" size="0.8128" layer="21">11</text>
-<text x="6.05" y="-6.7" size="0.8128" layer="21">12</text>
-<circle x="-6.13" y="5.1" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="74980111212" urn="urn:adsk.eagle:package:30734208/5" type="model" library_version="36">
-<description>&lt;b&gt;WE-RJ45 LAN Through Hole Reflow 
-&lt;br&gt;&lt;/b&gt;</description>
+<package3d name="7499010211A" urn="urn:adsk.eagle:package:12863510/4" type="model" library_version="36">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer
+&lt;br&gt;&lt;/b&gt;10/100 Base-T</description>
 <packageinstances>
-<packageinstance name="74980111212"/>
+<packageinstance name="7499010211A"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2935,27 +2845,27 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="SPICEPREFIX" value="C" x="36" y="56.5" locked="yes" size="1" layer="27" display="off"/>
 <attribute name="VALUE" x="32.571" y="53.706" locked="yes" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="J2" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" package="74980111212" package3d_urn="urn:adsk.eagle:package:30734208/5" value=" 74980111212 " x="11" y="49" smashed="yes" rot="R270">
-<attribute name="DATA-RATE" value="10/100BASE-T" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980111212?ae" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
-<attribute name="LED" value="yellow-green" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
+<element name="J2" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" package="7499010211A" package3d_urn="urn:adsk.eagle:package:12863510/4" value="7499010211A" x="11" y="49" smashed="yes" rot="R270">
+<attribute name="DATA-RATE" value="10/100 Base-T" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010211A?ae" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
+<attribute name="LED" value="green-yellow" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="MOUNT" value="THT" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.5" y="40" size="1.5" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="PART-NUMBER" value=" 74980111212 " x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
+<attribute name="PART-NUMBER" value="7499010211A" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="POE" value="non-PoE" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="PORTS" value=" 1 " x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
 <attribute name="USB" value="No" x="11" y="49" size="1" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-2" y="49" size="1.27" layer="51" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" value="7499010211A" x="-2" y="49" size="1.27" layer="51" rot="R270" align="bottom-center"/>
 </element>
 <element name="J11" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP2" package3d_urn="urn:adsk.eagle:package:15452/1" value="" x="89" y="47.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="94" y="47.5" size="1.5" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="POPULARITY" value="34" x="89" y="47.5" size="1" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="92.556" y="51.818" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="J1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="4.5" y="63.5" smashed="yes" rot="R270">
-<attribute name="NAME" x="10" y="59.5" size="1.5" layer="25" font="vector" ratio="12" align="center"/>
-<attribute name="POPULARITY" value="14" x="4.5" y="63.5" size="1" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0.69" y="56.515" size="1.27" layer="27"/>
+<element name="J1" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="4.5" y="63" smashed="yes" rot="R270">
+<attribute name="NAME" x="10" y="59" size="1.5" layer="25" font="vector" ratio="12" align="center"/>
+<attribute name="POPULARITY" value="14" x="4.5" y="63" size="1" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="0.69" y="56.015" size="1.27" layer="27"/>
 </element>
 <element name="J10" library="con-phoenix-508" library_urn="urn:adsk.eagle:library:176" package="MKDSN1,5/2-5,08" package3d_urn="urn:adsk.eagle:package:9630/1" value="MKDSN1,5/2-5,08" x="80.28" y="4.58" smashed="yes">
 <attribute name="NAME" x="76.5" y="9.5" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
@@ -3074,6 +2984,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <vertex x="3" y="0" curve="-90"/>
 <vertex x="0" y="3"/>
 </polygon>
+<via x="16" y="53" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC5" pad="12"/>
@@ -3244,16 +3155,16 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <contactref element="D1" pad="C"/>
 <contactref element="D2" pad="A"/>
 <contactref element="J1" pad="1"/>
-<wire x1="4.525" y1="66.0611" x2="7.4811" y2="66.0611" width="0.8" layer="16"/>
-<wire x1="7.4811" y1="66.0611" x2="9.92" y2="68.5" width="0.8" layer="16"/>
+<wire x1="4.525" y1="65.5611" x2="6.9811" y2="65.5611" width="0.8" layer="16"/>
+<wire x1="6.9811" y1="65.5611" x2="9.92" y2="68.5" width="0.8" layer="16"/>
 <wire x1="9.92" y1="68.5" x2="9.92" y2="72" width="0.8" layer="16"/>
 </signal>
 <signal name="N$10">
 <contactref element="D4" pad="A"/>
 <contactref element="D5" pad="C"/>
 <contactref element="J1" pad="2"/>
-<wire x1="4.525" y1="60.9811" x2="5.0439" y2="61.5" width="0.8" layer="16"/>
-<wire x1="5.0439" y1="61.5" x2="9.92" y2="61.5" width="0.8" layer="16"/>
+<wire x1="4.525" y1="60.4811" x2="5.5439" y2="61.5" width="0.8" layer="16"/>
+<wire x1="5.5439" y1="61.5" x2="9.92" y2="61.5" width="0.8" layer="16"/>
 <wire x1="9.92" y1="61.5" x2="9.92" y2="65" width="0.8" layer="16"/>
 </signal>
 <signal name="N$11">
@@ -3383,8 +3294,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="25.5" y1="53" x2="25.5" y2="52" width="0.3" layer="1"/>
 <via x="25.5" y="52" extent="1-16" drill="0.3"/>
 <wire x1="25.5" y1="52" x2="23.5" y2="54" width="0.3" layer="16"/>
-<wire x1="20.445" y1="54" x2="17.35" y2="50.905" width="0.3" layer="16"/>
-<wire x1="23.5" y1="54" x2="20.445" y2="54" width="0.3" layer="16"/>
+<wire x1="19.945" y1="54" x2="17.35" y2="51.405" width="0.3" layer="16"/>
+<wire x1="17.35" y1="51.405" x2="17.35" y2="50.905" width="0.3" layer="16"/>
+<wire x1="23.5" y1="54" x2="19.945" y2="54" width="0.3" layer="16"/>
 <wire x1="23.5" y1="47.58" x2="25.5" y2="49.58" width="0.3" layer="16"/>
 <wire x1="25.5" y1="49.58" x2="25.5" y2="52" width="0.3" layer="16"/>
 </signal>
@@ -4036,19 +3948,20 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="50" y1="46" x2="50" y2="42.5" width="0.3" layer="16"/>
 <wire x1="50" y1="42.5" x2="48" y2="40.5" width="0.3" layer="16"/>
 <wire x1="37" y1="40.5" x2="48" y2="40.5" width="0.3" layer="16"/>
-<wire x1="6.94" y1="42.36" x2="10.3" y2="39" width="0.3" layer="1"/>
-<wire x1="10.3" y1="39" x2="14.5" y2="39" width="0.3" layer="1"/>
-<wire x1="14.5" y1="39" x2="20" y2="33.5" width="0.3" layer="1"/>
+<wire x1="20" y1="33.5" x2="14.5" y2="39" width="0.3" layer="1"/>
 <wire x1="24" y1="33.5" x2="25.5" y2="35" width="0.3" layer="1"/>
 <via x="25.5" y="35" extent="1-16" drill="0.3"/>
 <wire x1="25.5" y1="35" x2="31.5" y2="35" width="0.3" layer="16"/>
 <wire x1="20" y1="33.5" x2="24" y2="33.5" width="0.3" layer="1"/>
 <wire x1="31.5" y1="35" x2="37" y2="40.5" width="0.3" layer="16"/>
+<wire x1="7.62" y1="40.88" x2="7.62" y2="42.675" width="0.3" layer="1"/>
+<wire x1="14.5" y1="39" x2="9.5" y2="39" width="0.3" layer="1"/>
+<wire x1="9.5" y1="39" x2="7.62" y2="40.88" width="0.3" layer="1"/>
 </signal>
 <signal name="LEDA">
 <contactref element="IC3" pad="27"/>
 <contactref element="J2" pad="9"/>
-<wire x1="6.94" y1="55.64" x2="14.3" y2="63" width="0.3" layer="1"/>
+<wire x1="6.1" y1="55.325" x2="14.3" y2="63" width="0.3" layer="1"/>
 <wire x1="14.3" y1="63" x2="21" y2="63" width="0.3" layer="1"/>
 <wire x1="21" y1="63" x2="22" y2="62" width="0.3" layer="1"/>
 <wire x1="22" y1="62" x2="31" y2="62" width="0.3" layer="1"/>
@@ -4073,9 +3986,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="26.5" y1="42.5" x2="16" y2="42.5" width="0.3" layer="1"/>
 <wire x1="29" y1="48.42" x2="29" y2="45" width="0.3" layer="1"/>
 <wire x1="29" y1="45" x2="26.5" y2="42.5" width="0.3" layer="1"/>
-<wire x1="16" y1="42.5" x2="13" y2="45.5" width="0.3" layer="1"/>
-<wire x1="7.54" y1="45.5" x2="6.94" y2="44.9" width="0.3" layer="1"/>
-<wire x1="13" y1="45.5" x2="7.54" y2="45.5" width="0.3" layer="1"/>
+<wire x1="13" y1="45.5" x2="16" y2="42.5" width="0.3" layer="1"/>
+<wire x1="6.1" y1="45.215" x2="6.385" y2="45.5" width="0.3" layer="1"/>
+<wire x1="6.385" y1="45.5" x2="13" y2="45.5" width="0.3" layer="1"/>
 </signal>
 <signal name="N$39">
 <contactref element="J2" pad="10"/>
@@ -4083,9 +3996,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="27" y1="49.92" x2="27" y2="54.5" width="0.3" layer="16"/>
 <wire x1="27" y1="54.5" x2="24.5" y2="57" width="0.3" layer="16"/>
 <wire x1="24.5" y1="57" x2="17" y2="57" width="0.3" layer="16"/>
-<wire x1="17" y1="57" x2="12.5" y2="52.5" width="0.3" layer="16"/>
-<wire x1="12.5" y1="52.5" x2="7.54" y2="52.5" width="0.3" layer="16"/>
-<wire x1="7.54" y1="52.5" x2="6.94" y2="53.1" width="0.3" layer="16"/>
+<wire x1="8.905" y1="51.5" x2="7.62" y2="52.785" width="0.3" layer="16"/>
+<wire x1="17" y1="57" x2="11.5" y2="51.5" width="0.3" layer="16"/>
+<wire x1="11.5" y1="51.5" x2="8.905" y2="51.5" width="0.3" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -4095,6 +4008,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="7,39,99cbc6ca8264aca1"/>
+</errors>
 </board>
 </drawing>
 <compatibility>

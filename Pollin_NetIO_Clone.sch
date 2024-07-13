@@ -1265,169 +1265,79 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="74980111212" urn="urn:adsk.eagle:footprint:30734206/2" library_version="36">
-<description>&lt;b&gt;WE-RJ45 LAN Through Hole Reflow 
-&lt;br&gt;&lt;/b&gt;</description>
+<package name="7499010211A" urn="urn:adsk.eagle:footprint:12863451/2" library_version="36">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer
+&lt;br&gt;&lt;/b&gt;10/100 Base-T</description>
+<pad name="9" x="-6.325" y="-4.9" drill="1.03" rot="R180"/>
+<pad name="10" x="-3.785" y="-3.38" drill="1.03" rot="R180"/>
+<pad name="11" x="3.785" y="-4.9" drill="1.03" rot="R180"/>
+<pad name="12" x="6.325" y="-3.38" drill="1.03" rot="R180"/>
+<pad name="8" x="4.445" y="8.89" drill="0.9" rot="R180"/>
+<pad name="6" x="1.905" y="8.89" drill="0.9" rot="R180"/>
+<pad name="4" x="-0.635" y="8.89" drill="0.9" rot="R180"/>
+<pad name="2" x="-3.175" y="8.89" drill="0.9" rot="R180"/>
+<pad name="1" x="-4.445" y="6.35" drill="0.9" rot="R180"/>
+<pad name="3" x="-1.905" y="6.35" drill="0.9" rot="R180"/>
+<pad name="5" x="0.635" y="6.35" drill="0.9" rot="R180"/>
+<pad name="7" x="3.175" y="6.35" drill="0.9" rot="R180"/>
+<pad name="S2" x="7.745" y="3.05" drill="1.6" rot="R180"/>
+<pad name="S1" x="-7.745" y="3.05" drill="1.6" rot="R180"/>
 <hole x="-5.715" y="0" drill="3.25"/>
 <hole x="5.715" y="0" drill="3.25"/>
-<pad name="S1" x="-7.85" y="3.05" drill="1.6"/>
-<pad name="S2" x="7.85" y="3.05" drill="1.6"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9"/>
-<pad name="9" x="-6.64" y="-4.06" drill="1.02"/>
-<pad name="10" x="-4.1" y="-4.06" drill="1.02"/>
-<pad name="11" x="4.1" y="-4.06" drill="1.02"/>
-<pad name="12" x="6.64" y="-4.06" drill="1.02"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9"/>
-<wire x1="-7.95" y1="10.5" x2="7.95" y2="10.5" width="0.1" layer="51"/>
-<wire x1="7.95" y1="10.5" x2="7.95" y2="-10.75" width="0.1" layer="51"/>
-<wire x1="7.95" y1="-10.75" x2="-7.95" y2="-10.75" width="0.1" layer="51"/>
-<wire x1="-7.95" y1="-10.75" x2="-7.95" y2="10.5" width="0.1" layer="51"/>
-<wire x1="-8.05" y1="4.6" x2="-8.05" y2="10.6" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="10.6" x2="8.05" y2="10.6" width="0.2" layer="21"/>
-<wire x1="8.05" y1="10.6" x2="8.05" y2="4.6" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="1.5" x2="-8.05" y2="-10.85" width="0.2" layer="21"/>
-<wire x1="-8.05" y1="-10.85" x2="8.05" y2="-10.85" width="0.2" layer="21"/>
-<wire x1="8.05" y1="-10.85" x2="8.05" y2="1.5" width="0.2" layer="21"/>
+<text x="0" y="11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="11" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<circle x="-6.1" y="5.4" radius="0.2" width="0.4" layer="21"/>
+<wire x1="-8" y1="10.36" x2="-8" y2="-10.89" width="0.1" layer="51"/>
+<wire x1="-8.1" y1="-10.99" x2="8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="8" y1="-10.89" x2="8" y2="10.36" width="0.1" layer="51"/>
+<wire x1="8.1" y1="10.46" x2="-8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="1.4" x2="-8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="8.1" y1="1.4" x2="8.1" y2="-10.99" width="0.2" layer="21"/>
+<wire x1="-8.1" y1="4.6" x2="-8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="8.1" y1="4.6" x2="8.1" y2="10.46" width="0.2" layer="21"/>
+<wire x1="-8" y1="10.36" x2="8" y2="10.36" width="0.1" layer="51"/>
+<wire x1="-8" y1="-10.89" x2="8" y2="-10.89" width="0.1" layer="51"/>
 <polygon width="0.1" layer="39">
-<vertex x="-9.4" y="10.9"/>
-<vertex x="9.4" y="10.9"/>
-<vertex x="9.4" y="-11.15"/>
-<vertex x="-9.4" y="-11.15"/>
+<vertex x="-9.25" y="10.66"/>
+<vertex x="9.25" y="10.66"/>
+<vertex x="9.25" y="-11.19"/>
+<vertex x="-9.25" y="-11.19"/>
 </polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-3.445" y="4.95"/>
-<vertex x="-3.445" y="7.55"/>
-<vertex x="-5.445" y="7.55"/>
-<vertex x="-5.445" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-2.175" y="7.89"/>
-<vertex x="-2.175" y="10.49"/>
-<vertex x="-4.175" y="10.49"/>
-<vertex x="-4.175" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-0.905" y="4.95"/>
-<vertex x="-0.905" y="7.55"/>
-<vertex x="-2.905" y="7.55"/>
-<vertex x="-2.905" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="0.365" y="7.89"/>
-<vertex x="0.365" y="10.49"/>
-<vertex x="-1.635" y="10.49"/>
-<vertex x="-1.635" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="1.635" y="4.95"/>
-<vertex x="1.635" y="7.55"/>
-<vertex x="-0.365" y="7.55"/>
-<vertex x="-0.365" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="2.905" y="7.89"/>
-<vertex x="2.905" y="10.49"/>
-<vertex x="0.905" y="10.49"/>
-<vertex x="0.905" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="4.175" y="4.95"/>
-<vertex x="4.175" y="7.55"/>
-<vertex x="2.175" y="7.55"/>
-<vertex x="2.175" y="4.95"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="5.445" y="7.89"/>
-<vertex x="5.445" y="10.49"/>
-<vertex x="3.445" y="10.49"/>
-<vertex x="3.445" y="7.89"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-4.895" y="1.8"/>
-<vertex x="-4.895" y="4.6"/>
-<vertex x="-10.595" y="4.6"/>
-<vertex x="-10.595" y="1.8"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="4.895" y="4.6"/>
-<vertex x="4.895" y="1.8"/>
-<vertex x="10.595" y="1.8"/>
-<vertex x="10.595" y="4.6"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-5.625" y="-5.66"/>
-<vertex x="-5.625" y="-2.46"/>
-<vertex x="-7.625" y="-2.46"/>
-<vertex x="-7.625" y="-5.66"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="-3.085" y="-5.66"/>
-<vertex x="-3.085" y="-2.46"/>
-<vertex x="-5.085" y="-2.46"/>
-<vertex x="-5.085" y="-5.66"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="3.095" y="-2.46"/>
-<vertex x="3.095" y="-5.66"/>
-<vertex x="5.095" y="-5.66"/>
-<vertex x="5.095" y="-2.46"/>
-</polygon>
-<polygon width="0.1" layer="31">
-<vertex x="5.635" y="-2.46"/>
-<vertex x="5.635" y="-5.66"/>
-<vertex x="7.635" y="-5.66"/>
-<vertex x="7.635" y="-2.46"/>
-</polygon>
-<text x="0" y="11.5" size="1.27" layer="51" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-13" size="1.27" layer="51" align="bottom-center">&gt;VALUE</text>
-<text x="-4.96" y="8.5" size="0.8128" layer="21">2</text>
-<text x="5.9" y="8.6" size="0.8128" layer="21">8</text>
-<text x="4.5" y="6" size="0.8128" layer="21">7</text>
-<text x="-6.3" y="6" size="0.8128" layer="21">1</text>
-<text x="-7" y="-6.7" size="0.8128" layer="21">9</text>
-<text x="-4.75" y="-6.7" size="0.8128" layer="21">10</text>
-<text x="3.45" y="-6.7" size="0.8128" layer="21">11</text>
-<text x="6.05" y="-6.7" size="0.8128" layer="21">12</text>
-<circle x="-6.13" y="5.1" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="74980111212" urn="urn:adsk.eagle:package:30734208/5" type="model" library_version="36">
-<description>&lt;b&gt;WE-RJ45 LAN Through Hole Reflow 
-&lt;br&gt;&lt;/b&gt;</description>
+<package3d name="7499010211A" urn="urn:adsk.eagle:package:12863510/4" type="model" library_version="36">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer
+&lt;br&gt;&lt;/b&gt;10/100 Base-T</description>
 <packageinstances>
-<packageinstance name="74980111212"/>
+<packageinstance name="7499010211A"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="74980111212" urn="urn:adsk.eagle:symbol:38606572/1" library_version="36">
+<symbol name="7499010211A" urn="urn:adsk.eagle:symbol:14284282/3" library_version="36">
 <pin name="RD+" x="-12.7" y="2.54" length="middle" direction="pas"/>
 <pin name="CTD" x="-12.7" y="7.62" length="middle" direction="pas"/>
 <pin name="RD-" x="-12.7" y="-2.54" length="middle" direction="pas"/>
 <pin name="TD+" x="-12.7" y="10.16" length="middle" direction="pas"/>
 <pin name="TD-" x="-12.7" y="5.08" length="middle" direction="pas"/>
 <pin name="CRD" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="LED2_Y+" x="15.24" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED2_Y-" x="15.24" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED1_G-" x="15.24" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
 <pin name="SHIELD1" x="-12.7" y="-12.7" length="middle" direction="pas"/>
 <pin name="SHIELD2" x="-12.7" y="-15.24" length="middle" direction="pas"/>
-<pin name="GND" x="-12.7" y="-7.62" length="middle" direction="pas"/>
-<pin name="LED1_Y-" x="15.24" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="LED2_G+" x="15.24" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="LED2_G-" x="15.24" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="LED1_Y+" x="15.24" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="8" x="-12.7" y="-7.62" length="middle" direction="pas"/>
 <pin name="NC" x="-12.7" y="-5.08" length="middle" direction="pas"/>
-<text x="-2.54" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-20.32" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 <text x="0" y="15.24" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_Y-</text>
-<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_Y+</text>
-<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_G+</text>
-<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_G-</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y-</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y+</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G+</text>
 <wire x1="-7.62" y1="12.7" x2="6.35" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="6.35" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
@@ -1447,41 +1357,38 @@ Copyright: Würth Elektronik</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="WE-RJ45_74980111212" urn="urn:adsk.eagle:component:38606583/3" prefix="T" library_version="36">
-<description>&lt;b&gt;WE-RJ45 LAN Through Hole Reflow&lt;br&gt;
+<deviceset name="WE-RJ45_7499010211A" urn="urn:adsk.eagle:component:14284356/10" prefix="T" library_version="36">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer&lt;br&gt;
 &lt;br&gt;Characteristics 
-&lt;br&gt;&lt;br&gt;&lt;/b&gt;RJ45 designed to use for Pin-in-Paste soldering
-&lt;br&gt;High mechanical stability through THT pins
-&lt;br&gt;High Temperature LEDs
-&lt;br&gt;Extra high standoff for a good thermal airflow
-&lt;br&gt;Power over Ethernet up to 30 W
-&lt;br&gt;Compliant with standard: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
 &lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
 &lt;/b&gt;&lt;br&gt;&lt;br&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
 &lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
 &lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
 &lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
 &lt;br&gt;&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o713596v209%20family-we-rj45-lan-74980xxx.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/components/media/o713596v209%20family-we-rj45-lan-74980xxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="www.we-online.com/catalog/WE-LAN-RJ45_THR/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-LAN-RJ45_THR&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o35731v209%20Family-WE-RJ45LAN-7499xxxxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o35731v209%20Family-WE-RJ45LAN-7499xxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LAN-RJ45/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-LAN-RJ45&lt;/a&gt;&lt;p&gt;
 
-
-Created by Ella Wu 2022-12-16 &lt;br&gt;
-2022 (C) Wurth Elektronik</description>
+Updated by Ella Wu 2023-08-16 &lt;br&gt;
+2023 (C) Wurth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="74980111212" x="0" y="0"/>
+<gate name="G$1" symbol="7499010211A" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="74980111212">
+<device name="" package="7499010211A">
 <connects>
+<connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="CRD" pad="5"/>
 <connect gate="G$1" pin="CTD" pad="4"/>
-<connect gate="G$1" pin="GND" pad="8"/>
-<connect gate="G$1" pin="LED1_Y+" pad="9"/>
-<connect gate="G$1" pin="LED1_Y-" pad="10"/>
-<connect gate="G$1" pin="LED2_G+" pad="11"/>
-<connect gate="G$1" pin="LED2_G-" pad="12"/>
+<connect gate="G$1" pin="LED1_G+" pad="9"/>
+<connect gate="G$1" pin="LED1_G-" pad="10"/>
+<connect gate="G$1" pin="LED2_Y+" pad="12"/>
+<connect gate="G$1" pin="LED2_Y-" pad="11"/>
 <connect gate="G$1" pin="NC" pad="7"/>
 <connect gate="G$1" pin="RD+" pad="3"/>
 <connect gate="G$1" pin="RD-" pad="6"/>
@@ -1491,19 +1398,19 @@ Created by Ella Wu 2022-12-16 &lt;br&gt;
 <connect gate="G$1" pin="TD-" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:30734208/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863510/4"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATA-RATE" value="10/100BASE-T"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/74980111212?ae"/>
-<attribute name="LED" value="yellow-green"/>
+<attribute name="DATA-RATE" value="10/100 Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7499010211A?ae"/>
+<attribute name="LED" value="green-yellow"/>
 <attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 74980111212 "/>
+<attribute name="PART-NUMBER" value="7499010211A"/>
 <attribute name="POE" value="non-PoE"/>
 <attribute name="PORTS" value=" 1 "/>
 <attribute name="USB" value="No"/>
-<attribute name="VALUE" value=" 74980111212 "/>
+<attribute name="VALUE" value="7499010211A"/>
 </technology>
 </technologies>
 </device>
@@ -24899,7 +24806,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" deviceset="WE-RJ45_74980111212" device="" package3d_urn="urn:adsk.eagle:package:30734208/5" value=" 74980111212 "/>
+<part name="J2" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" deviceset="WE-RJ45_7499010211A" device="" package3d_urn="urn:adsk.eagle:package:12863510/4" value="7499010211A"/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="J11" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP2E" device="" package3d_urn="urn:adsk.eagle:package:15452/1"/>
@@ -24921,7 +24828,11 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="355.6" y="208.28" size="2.54" layer="94">Wirklich?</text>
+<text x="33.02" y="210.82" size="1.778" layer="250" rot="R180" align="center-left">AREF</text>
+<text x="33.02" y="213.36" size="1.778" layer="250" rot="R180" align="center-left">int.</text>
+<text x="33.02" y="208.28" size="1.778" layer="250" rot="R180" align="center-left">ext.</text>
+<text x="170.18" y="193.04" size="1.778" layer="250" align="center-left">norm</text>
+<text x="170.18" y="187.96" size="1.778" layer="250" align="center-left">prog</text>
 </plain>
 <instances>
 <instance part="IC5" gate="G$1" x="109.22" y="185.42" smashed="yes">
@@ -24982,24 +24893,24 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="NAME" x="262.89" y="50.038" size="1.778" layer="95" rot="R180"/>
 </instance>
 <instance part="D1" gate="1" x="45.72" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.2374" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="48.0314" y="27.94" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="43.18" y="27.4574" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="43.18" y="25.1714" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D2" gate="1" x="45.72" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.2374" y="43.18" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="48.0314" y="43.18" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="43.18" y="42.6974" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="43.18" y="40.4114" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D3" gate="1" x="91.44" y="53.34" smashed="yes" rot="R180">
 <attribute name="NAME" x="88.9" y="52.8574" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="88.9" y="55.6514" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D4" gate="1" x="55.88" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.3974" y="43.18" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="58.1914" y="43.18" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="58.42" y="41.1226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="38.3286" size="1.778" layer="96"/>
 </instance>
 <instance part="D5" gate="1" x="55.88" y="25.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.3974" y="27.94" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="58.1914" y="27.94" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="58.42" y="25.8826" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.42" y="23.0886" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="152.4" y="35.56" smashed="yes">
 <attribute name="NAME" x="148.59" y="37.0586" size="1.778" layer="95"/>
@@ -25014,52 +24925,52 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="132.842" y="24.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R4" gate="G$1" x="292.1" y="152.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="290.6014" y="148.59" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="295.402" y="148.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="290.83" y="155.9814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="290.83" y="153.162" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R5" gate="G$1" x="205.74" y="193.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="209.55" y="191.5414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="209.55" y="196.342" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R6" gate="G$1" x="353.06" y="182.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="351.5614" y="179.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="356.362" y="179.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="354.33" y="184.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="354.33" y="182.118" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="G$1" x="345.44" y="182.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="343.9414" y="179.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="348.742" y="179.07" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="344.17" y="186.4614" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="344.17" y="183.642" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R8" gate="G$1" x="304.8" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="303.3014" y="161.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="308.102" y="161.29" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="306.07" y="166.5986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="306.07" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="279.4" y="205.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="277.9014" y="201.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="282.702" y="201.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="278.13" y="209.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="278.13" y="206.502" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R10" gate="G$1" x="269.24" y="205.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="267.7414" y="201.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="272.542" y="201.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="267.97" y="209.3214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="267.97" y="206.502" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R11" gate="G$1" x="299.72" y="165.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="298.2214" y="161.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="303.022" y="161.29" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="298.45" y="168.6814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="298.45" y="165.862" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R12" gate="G$1" x="78.74" y="228.6" smashed="yes">
-<attribute name="NAME" x="74.93" y="230.0986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="74.93" y="225.298" size="1.778" layer="96"/>
+<attribute name="NAME" x="72.39" y="230.0986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="230.378" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="160.02" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.5214" y="196.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.322" y="196.85" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="161.29" y="202.1586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="161.29" y="199.898" size="1.778" layer="96"/>
 </instance>
 <instance part="Q1" gate="G$1" x="271.78" y="154.94" smashed="yes" rot="R180">
-<attribute name="NAME" x="269.24" y="153.924" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="269.24" y="157.48" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="274.32" y="155.956" size="1.778" layer="95"/>
+<attribute name="VALUE" x="274.32" y="152.4" size="1.778" layer="96"/>
 </instance>
 <instance part="Q2" gate="G$1" x="83.82" y="218.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.804" y="220.98" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="86.36" y="220.98" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="83.82" y="221.996" size="1.778" layer="95"/>
+<attribute name="VALUE" x="83.82" y="213.36" size="1.778" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="266.7" y="147.32" smashed="yes">
 <attribute name="NAME" x="268.224" y="147.701" size="1.778" layer="95"/>
@@ -25070,15 +24981,15 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="278.384" y="142.621" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="73.66" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.279" y="222.504" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="222.504" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="72.136" y="220.599" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="77.724" y="221.361" size="1.778" layer="96"/>
 </instance>
 <instance part="C13" gate="G$1" x="73.66" y="215.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="73.279" y="217.424" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="78.359" y="217.424" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="72.136" y="215.519" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="77.724" y="213.741" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="66.04" y="220.98" smashed="yes" rot="R270">
-<attribute name="VALUE" x="63.5" y="223.52" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="66.04" y="223.52" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="83.82" y="185.42" smashed="yes">
 <attribute name="VALUE" x="81.28" y="182.88" size="1.778" layer="96"/>
@@ -25100,7 +25011,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </instance>
 <instance part="L1" gate="G$1" x="66.04" y="208.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.85" y="206.7814" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="69.85" y="211.582" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="64.77" y="206.502" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="L2" gate="G$1" x="269.24" y="223.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="270.7386" y="227.33" size="1.778" layer="95" rot="R270"/>
@@ -25127,7 +25038,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="57.404" y="190.881" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="66.04" y="215.9" smashed="yes" rot="R270">
-<attribute name="VALUE" x="63.5" y="218.44" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="66.04" y="218.44" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND8" gate="1" x="76.2" y="185.42" smashed="yes">
 <attribute name="VALUE" x="73.66" y="182.88" size="1.778" layer="96"/>
@@ -25157,12 +25068,12 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="114.7826" y="108.077" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="C17" gate="G$1" x="73.66" y="129.54" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.1426" y="128.397" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="69.0626" y="128.397" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="74.803" y="130.0226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="69.977" y="129.0574" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C14" gate="G$1" x="71.12" y="116.84" smashed="yes" rot="R90">
-<attribute name="NAME" x="70.6374" y="117.983" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="75.7174" y="117.983" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="74.803" y="117.3226" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.803" y="114.7826" size="1.778" layer="96"/>
 </instance>
 <instance part="C7" gate="G$1" x="210.82" y="154.94" smashed="yes">
 <attribute name="NAME" x="211.963" y="155.4226" size="1.778" layer="95"/>
@@ -25266,8 +25177,8 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="93.98" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="327.66" y="205.74" smashed="yes">
-<attribute name="VALUE" x="325.12" y="185.42" size="1.778" layer="96"/>
-<attribute name="NAME" x="327.66" y="220.98" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="320.04" y="220.98" size="1.778" layer="96"/>
+<attribute name="NAME" x="317.5" y="220.98" size="1.778" layer="95" align="bottom-center"/>
 </instance>
 <instance part="GND31" gate="1" x="269.24" y="93.98" smashed="yes">
 <attribute name="VALUE" x="266.7" y="91.44" size="1.778" layer="96"/>
@@ -25337,7 +25248,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <attribute name="VALUE" x="157.48" y="180.34" size="1.778" layer="96"/>
 </instance>
 <instance part="P+11" gate="1" x="160.02" y="210.82" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="162.56" y="205.74" size="1.778" layer="96" rot="MR90"/>
+<attribute name="VALUE" x="162.56" y="210.82" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -25543,7 +25454,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <junction x="312.42" y="190.5"/>
 <pinref part="J2" gate="G$1" pin="SHIELD1"/>
 <pinref part="J2" gate="G$1" pin="SHIELD2"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="VSS"/>
@@ -26608,7 +26519,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="251.46" y1="198.12" x2="251.46" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="238.76" x2="347.98" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="238.76" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="LED2_G-"/>
+<pinref part="J2" gate="G$1" pin="LED2_Y+"/>
 <wire x1="347.98" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -26618,14 +26529,14 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <wire x1="246.38" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="200.66" x2="248.92" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="241.3" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="LED1_Y+"/>
+<pinref part="J2" gate="G$1" pin="LED1_G+"/>
 <wire x1="342.9" y1="210.82" x2="350.52" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="210.82" x2="350.52" y2="241.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="LED2_G+"/>
+<pinref part="J2" gate="G$1" pin="LED2_Y-"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="205.74" x2="345.44" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="345.44" y1="205.74" x2="345.44" y2="187.96" width="0.1524" layer="91"/>
@@ -26633,7 +26544,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="J2" gate="G$1" pin="LED1_Y-"/>
+<pinref part="J2" gate="G$1" pin="LED1_G-"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="342.9" y1="208.28" x2="353.06" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="208.28" x2="353.06" y2="187.96" width="0.1524" layer="91"/>
