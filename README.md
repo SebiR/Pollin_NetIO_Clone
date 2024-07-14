@@ -29,6 +29,10 @@ The MAC address is stored in the EEPROM and can be modified in the .eep file:
 
 So this is MAC address 00:22:F9:01:C4:F4
 
+## Resources
+EEPROM Structure:
+https://www.mikrocontroller.net/topic/112937#1016995
+
 ## Disclaimer
 This project was created to archive and preserve the NetIO PCB. Pollin owns all the rights to this design.
 There's no copyright infringement intended, please contact me for removal if I cause any problems.
