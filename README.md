@@ -18,6 +18,9 @@ This is a clone of the original Pollin NetIO board.
 * Added capacitors and diodes for stability
 * placement of the components as close to the original as possible
 
+## Software
+The original Pollin Netserver is in /Software/Netserver.zip
+
 ## Firmware
 The original firmware is included.
 
