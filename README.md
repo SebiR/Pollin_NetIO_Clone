@@ -19,13 +19,13 @@ This is a clone of the original Pollin NetIO board.
 * placement of the components as close to the original as possible
 
 ## Software
-The original Pollin Netserver is in /Software/Netserver.zip
+The original Pollin Netserver 1.03 (provided on a CD) is in /Software/Netserver.zip
 
 ## Firmware
 The original firmware is included.
 
 The MAC address is stored in the EEPROM and can be modified in the .eep file:
-<img src="./Documentation/original_mac.png.png" >
+<img src="./Documentation/original_mac.png" >
 
 So this is MAC address 00:22:F9:01:C4:F4
 
