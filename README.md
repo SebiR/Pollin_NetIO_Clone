@@ -1,4 +1,8 @@
 # Pollin NetIO Clone
+> [!WARNING]  
+> The original design is flawed in many ways. If you want to build this design, you should be prepared for some disappointment!
+> If you know what you're doing, go ahead. Otherwise you might want to wait for the improved version.
+
 This is a clone of the original Pollin NetIO board.
 
 <img src="./Documentation/netio_original.jpg" width="600">
@@ -9,8 +13,7 @@ This is a clone of the original Pollin NetIO board.
 
 ## Versions
 ### Original
-> [!WARNING]  
-> The original design is flawed in many ways. If you want to build this design, you should be prepared for some disappointment!
+
 * As identical as possible to the original
 * outline and placement of the components as close as possible
 * Assembly plan of the original works
