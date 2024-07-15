@@ -24,6 +24,7 @@ Things to improve:
 * ATmega32 to 3V3? -> Consider compability of extensions
 * More capacitors for the ENC28J60
 * Diode + capacitors for the LM317
+* Connect RS232 handshake lines -> Arduino bootloader compatible
 
 ## Software
 The original Pollin Netserver 1.03 (provided on a CD) is in /Software/Netserver.zip
@@ -41,5 +42,6 @@ EEPROM Structure: https://www.mikrocontroller.net/topic/112937#1016995
 Hardware improvements: https://community.symcon.de/t/p-llins-avr-net-io-langzeitstabilitaet-des-lan-chips/24317/12
 
 ## Disclaimer
-This project was created to archive and preserve the NetIO PCB. Pollin owns all the rights to this design.
-There's no copyright infringement intended, please contact me for removal if I cause any problems.
+> [!CAUTION]
+> This project was created to archive and preserve the NetIO PCB. Pollin owns all the rights to this design.
+> There's no copyright infringement intended, please contact me for removal.
