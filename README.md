@@ -5,7 +5,7 @@
 
 This is a clone of the original Pollin NetIO board.
 
-<img src="./Documentation/netio_original.jpg" width="600">
+<img src="./Documentation/netio_600x.jpg" width="600">
 
 <img src="./Documentation/clone_3d_top.png" width="600">
 
