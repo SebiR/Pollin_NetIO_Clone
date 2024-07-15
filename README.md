@@ -29,6 +29,10 @@ Things to improve:
 ## Software
 The original Pollin Netserver 1.03 (provided on a CD) is in /Software/Netserver.zip
 
+<img src="./Documentation/netserver.png" width="600">
+
+It works just fine with Windows 11.
+
 ## Firmware
 The original firmware is included.
 
@@ -39,7 +43,10 @@ So this is MAC address 00:22:F9:01:C4:F4
 
 ## Resources
 EEPROM Structure: https://www.mikrocontroller.net/topic/112937#1016995
+
 Hardware improvements: https://community.symcon.de/t/p-llins-avr-net-io-langzeitstabilitaet-des-lan-chips/24317/12
+
+General: https://www.mikrocontroller.net/articles/AVR_Net-IO_Bausatz_von_Pollin
 
 ## Disclaimer
 > [!CAUTION]
